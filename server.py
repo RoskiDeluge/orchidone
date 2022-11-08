@@ -1,7 +1,10 @@
 import os
 from flask import Flask, render_template, request, redirect, url_for
+from dotenv import load_dotenv
 import replicate
 import openai
+
+load_dotenv()
 
 app = Flask(__name__)
 

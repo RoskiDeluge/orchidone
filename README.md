@@ -1,4 +1,4 @@
-# Orchid Zero
+# Orchid One
 
 Create your own .env file with the following API keys:
 

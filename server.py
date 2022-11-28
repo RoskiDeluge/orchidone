@@ -14,7 +14,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 @app.route("/")
 def index():
   response = openai.Completion.create(
-  model="text-davinci-002",
+  model="text-davinci-003",
   prompt="Prompt: A surreal image of an orchid floating in outer space in the style of Rene Magritte and Georgia O'Keffe\n\nPrompt: A hyperrealistic photo of a burning orchid in the style of Frida Kahlo and Ansel Adams\n\nPrompt: An abstract image of an orchid explosion in a futuristic landscape in the style of Vincent Van gough and Takashi Murakami \n\nPrompt:",
   temperature=0.9,
   max_tokens=140,
